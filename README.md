@@ -7,26 +7,6 @@
 
 StyleNet necesita automatizar la clasificación de imágenes de productos de ropa subidas por usuarios y vendedores. Este proyecto implementa y compara dos arquitecturas de redes neuronales para clasificar prendas de vestir usando el dataset Fashion-MNIST.
 
----
-
-## Estructura del repositorio
-
-```
-clasificador-ropa-stylenet/
-├── clasificador_ropa_modulo8.ipynb   # Notebook principal
-├── README.md                          # Esta documentación
-├── modelo_cnn_stylenet.keras          # Modelo CNN exportado
-├── modelo_ann_stylenet.keras          # Modelo ANN exportado
-└── graficos/
-    ├── fashion_mnist_clases.png
-    ├── distribucion_clases.png
-    ├── curvas_entrenamiento.png
-    ├── confusion_ann.png
-    └── confusion_cnn.png
-```
-
----
-
 ## Parte 1 — Justificación de Arquitecturas
 
 ### Red Neuronal Densa (ANN) vs Red Neuronal Convolutiva (CNN)
